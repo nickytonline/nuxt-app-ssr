@@ -2,7 +2,7 @@
 const yo = defineNuxtConfig({
     nitro: {
     routeRules: {
-      '/hello': { swr: true },
+      '/**': { swr: true },
     },
     // prerender: {
     //   routes: ['/**'],
