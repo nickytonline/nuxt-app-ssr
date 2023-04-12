@@ -1,0 +1,7 @@
+[build]
+command="nuxt build"
+publish="dist"
+
+[dev]
+command="nuxt dev"
+targetPort=3000
